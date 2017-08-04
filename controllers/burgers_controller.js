@@ -23,9 +23,9 @@ router.get("/", function(req, res){
 router.post("/", function(req, res){
   //console.log(req.body.name);
 
-db.Burger.create([
+db.Burger.create({
   burger_name: req.body.burger_name
-]).then(
+}).then(
   function(dbBurger) {
     console.log(dbBurger);
 
