@@ -18,8 +18,8 @@
   "homepage": "https://github.com/mdvacula/burger#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "express-handlebars": "^3.0.0",
+    "express": "^4.16.0",
+    "express-handlebars": "^5.2.1",
     "method-override": "^2.3.9",
     "mysql": "^2.13.0",
     "mysql2": "^1.4.0",
